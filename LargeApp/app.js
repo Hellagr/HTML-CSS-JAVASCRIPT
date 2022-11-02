@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const gitExtension = vscode.extensions.getExtension < GitExtension > ('vscode.git').exports;
+const git = gitExtension.getAPI(1);
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'))
