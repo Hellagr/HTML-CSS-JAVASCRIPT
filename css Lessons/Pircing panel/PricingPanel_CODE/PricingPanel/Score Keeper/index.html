@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://www.theindianwire.com/wp-content/uploads/2018/08/table-tennis.jpeg" alt="ping-pong">
+        <h2>Ping pong Score Keeper</h2>
+    </div>
+
+    <div class="score" id="score">
+        <h1><b>0</b> to <b id="b2">0</b></h1>
+        <p>Use the bottons below to keep score</p>
+
+        <label for="selectScore">Choose a score of win:</label>
+        <select name="Score" id="selectScore">
+            <option value="">--Please choose an option--</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+    </div>
+    <div class="buttons" id="buttons">
+
+        <button class="btn btn-info" type="button" id="btn1">+1 Player 1</button>
+        <button class="btn btn-primary" id="btn2">+1 Player 2</button>
+        <button class="btn btn-danger" id="btn3">Reset</button>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

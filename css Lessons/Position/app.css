@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(15, 34, 34);
+    display: inline-block;
+}
+
+#test1 #mid {
+    background-color: black;
+    position: relative;
+
+}
+
+#test2 #mid {
+    background-color: black;
+    position: relative;
+    position: absolute;
+
+}
