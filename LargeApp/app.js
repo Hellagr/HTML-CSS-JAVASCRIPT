@@ -3,7 +3,8 @@ const app = express();
 const path = require('path');
 const mongoose = require('mongoose');
 
-
+const gitExtension = vscode.extensions.getExtension < GitExtension > ('vscode.git').exports;
+const git = gitExtension.getAPI(1);
 
 
 mongoose.connect('mongodb://localhost:27017/yelp-camp', {
